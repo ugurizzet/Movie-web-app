@@ -1,6 +1,6 @@
 import React from 'react'
 import { createContext ,useState,useEffect} from 'react'
-import { userObserver } from '../auth/Firebase'
+import { userObserver } from '../auth/Firebase';
 
 export const AuthContext = createContext();
 
